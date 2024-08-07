@@ -9,8 +9,8 @@ function useCurrencyInfo(currency){
 const options = {
 	method: 'GET',
 	headers: {
-		'x-rapidapi-key': 'd4c4d5f144mshbaa04409554bb4fp15fd6ajsn1949d2a0053f',
-		'x-rapidapi-host': 'currency-converter-pro1.p.rapidapi.com'
+		'x_rapidapi_key': 'd4c4d5f144mshbaa04409554bb4fp15fd6ajsn1949d2a0053f',
+		'x_rapidapi_host': 'currency-converter-pro1.p.rapidapi.com'
 	}
 };
         fetch(url,options)
